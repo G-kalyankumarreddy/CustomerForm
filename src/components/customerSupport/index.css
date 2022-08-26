@@ -1,0 +1,67 @@
+.page-container{
+    background-image: linear-gradient(#C850C0,#80D0C7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title{
+    font-family: "Roboto";
+    font-size: 30px;
+    text-align: center;
+}
+
+.form-styling{
+    padding: 20px;
+    border: 1px #dddddd solid;
+    border-radius: 10px;
+}
+
+.label-styling{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.name-styling{
+    font-size: 14px;
+    color: black;
+    
+}
+
+.quesiton-line{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 0px;
+
+}
+
+.textarea-styling{
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px ;
+}
+
+.submit-button{
+    height: 28px;
+    width: 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #dddddd;
+    outline: none;
+}
+
+.error-msg{
+    font-size: 12px;
+    font-family: "Roboto";
+    color: red;
+    margin-bottom: 0px;
+}
